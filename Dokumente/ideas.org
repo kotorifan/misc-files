@@ -1,3 +1,4 @@
+
 #+title: Ideas
 #+author: kotorifan
 #+license: Creative Commons Zero 1.0 (Public domain), No rights reserved
@@ -69,6 +70,13 @@
 - not be a retard and fix my IDT before I fantasize about things that
   will never exist. 
 
+** FORTH OS
+- implements a reasonably well-featured FORTH
+- 32-bit, x86
+- text editor with Emacs bindings (think mg or e3)
+- made to be fun, includes games, includes a lot of documentation
+- has its own mini bootloader
+
 ** eternal-monologue.net self-hosted
 - Self-host it from a RPI/Starfive Visionfive 2/other SBC
 - use NetBSD as the OS, use wireguard-go instead of the native NetBSD
@@ -89,7 +97,7 @@
 - make more rooms
 
 ** Offline noise generator
-- use a longer audio trak for the cafe
+- use a longer audio track for the cafe
 - make a pleasant-to-use UI (bigger volume/play buttons)
 - use only public domain audio pieces, audio that I can use freely
   without copyright restrictions
