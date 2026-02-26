@@ -5,9 +5,11 @@
 (package-initialize)
 
 ;; The theme I use
-(use-package poet-theme
-  :config (load-theme 'poet-dark t))
+;;(use-package poet-theme
+;;  :config (load-theme 'poet-dark t))
 
+(use-package almost-mono-themes
+  :config (load-theme 'almost-mono-black t))
 ;; Languages
 (use-package forth-mode)
 (use-package markdown-mode)
@@ -127,7 +129,12 @@
  '(display-line-numbers-type 'relative)
  '(global-display-line-numbers-mode t)
  '(package-selected-packages
-   '(format-all company-c-headers company-doxygen yasnippet-snippets yasnippet cmake-font-lock cmake-mode modern-cpp-font-lock sly poet-theme multiple-cursors markdown-mode magit json-mode jinx forth-mode doxymacs company))
+   '(almost-mono-themes cmake-font-lock cmake-mode company
+                        company-c-headers company-doxygen doxymacs
+                        format-all forth-mode jinx json-mode magit
+                        markdown-mode modern-cpp-font-lock
+                        multiple-cursors poet-theme sly yasnippet
+                        yasnippet-snippets))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

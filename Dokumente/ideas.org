@@ -119,7 +119,17 @@
   and nothing else, no spam, nothing illegal, duh, like every other
   textboard in existence
 
-*** Tcl utility for music player daemon
+** Tcl utility for music player daemon
 - works like mpc, but written in Tcl
 - autocompletes songs in the library when choosing to play one
 - configured within Tcl
+
+** Walkable window manager for Linux
+- game-like 3d representation of any given computer
+  desktop (Linux)
+- the floor is the wallpaper
+- the icons on the desktop are DOOM-like 2.5d pictures that you can
+  click on to open the related program 
+- Perhaps written in C++/Raylib (I think raylib might have the least
+  issues)
+- maybe make it a whole file manager
